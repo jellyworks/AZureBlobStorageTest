@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		378F7CF39C951B2917931314 /* Pods_AzureBlobStorateTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979723EEEF0AB3867A7B92E8 /* Pods_AzureBlobStorateTest.framework */; };
+		64B7EECD282571AE00325363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A862753979500FFC0F3 /* ViewController.swift */; };
+		64B7EECE282571AE00325363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A822753979500FFC0F3 /* AppDelegate.swift */; };
+		64B7EECF282571AE00325363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A842753979500FFC0F3 /* SceneDelegate.swift */; };
+		64B7EED1282571AE00325363 /* Pods_AzureBlobStorateTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979723EEEF0AB3867A7B92E8 /* Pods_AzureBlobStorateTest.framework */; };
+		64B7EED3282571AE00325363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96357A8D2753979500FFC0F3 /* LaunchScreen.storyboard */; };
+		64B7EED4282571AE00325363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96357A8B2753979500FFC0F3 /* Assets.xcassets */; };
+		64B7EED5282571AE00325363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96357A882753979500FFC0F3 /* Main.storyboard */; };
+		64B7EEDF282571B600325363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A862753979500FFC0F3 /* ViewController.swift */; };
+		64B7EEE0282571B600325363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A822753979500FFC0F3 /* AppDelegate.swift */; };
+		64B7EEE1282571B600325363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A842753979500FFC0F3 /* SceneDelegate.swift */; };
+		64B7EEE3282571B600325363 /* Pods_AzureBlobStorateTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979723EEEF0AB3867A7B92E8 /* Pods_AzureBlobStorateTest.framework */; };
+		64B7EEE5282571B600325363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96357A8D2753979500FFC0F3 /* LaunchScreen.storyboard */; };
+		64B7EEE6282571B600325363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96357A8B2753979500FFC0F3 /* Assets.xcassets */; };
+		64B7EEE7282571B600325363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96357A882753979500FFC0F3 /* Main.storyboard */; };
 		77A713BCB62F801183F95C25 /* Pods_AzureBlobStorateTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62671C567E51DC73F7161B /* Pods_AzureBlobStorateTestTests.framework */; };
 		96357A832753979500FFC0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A822753979500FFC0F3 /* AppDelegate.swift */; };
 		96357A852753979500FFC0F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96357A842753979500FFC0F3 /* SceneDelegate.swift */; };
@@ -42,6 +56,10 @@
 		192641466F6668F026CC654A /* Pods-AzureBlobStorateTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobStorateTestTests.release.xcconfig"; path = "Target Support Files/Pods-AzureBlobStorateTestTests/Pods-AzureBlobStorateTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		34F19D76A77DD1AAF37D10C8 /* Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests.release.xcconfig"; path = "Target Support Files/Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests/Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4AFE42DD58BEFE9292EA622D /* Pods-AzureBlobStorateTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobStorateTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AzureBlobStorateTestTests/Pods-AzureBlobStorateTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64B7EEDA282571AE00325363 /* AzureBlobStorateTest copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AzureBlobStorateTest copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7EEDB282571AF00325363 /* AzureBlobStorateTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AzureBlobStorateTest copy-Info.plist"; path = "/Users/wizard/works/ios/AZureBlobStorageTest/AzureBlobStorateTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		64B7EEEC282571B600325363 /* AzureBlobStorateTest copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AzureBlobStorateTest copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7EEED282571B600325363 /* AzureBlobStorateTest copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AzureBlobStorateTest copy copy-Info.plist"; path = "/Users/wizard/works/ios/AZureBlobStorageTest/AzureBlobStorateTest copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		78C4DCDBDFF37D9D34E4B190 /* Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests/Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		96357A7F2753979500FFC0F3 /* AzureBlobStorateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureBlobStorateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96357A822753979500FFC0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +83,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		64B7EED0282571AE00325363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EED1282571AE00325363 /* Pods_AzureBlobStorateTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEE2282571B600325363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EEE3282571B600325363 /* Pods_AzureBlobStorateTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96357A7C2753979500FFC0F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +158,8 @@
 				96357A802753979500FFC0F3 /* Products */,
 				3FA2223A5206EF3B63C4BAA3 /* Pods */,
 				606BBD20F71B0ED6CC62309A /* Frameworks */,
+				64B7EEDB282571AF00325363 /* AzureBlobStorateTest copy-Info.plist */,
+				64B7EEED282571B600325363 /* AzureBlobStorateTest copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +169,8 @@
 				96357A7F2753979500FFC0F3 /* AzureBlobStorateTest.app */,
 				96357A952753979600FFC0F3 /* AzureBlobStorateTestTests.xctest */,
 				96357A9F2753979600FFC0F3 /* AzureBlobStorateTestUITests.xctest */,
+				64B7EEDA282571AE00325363 /* AzureBlobStorateTest copy.app */,
+				64B7EEEC282571B600325363 /* AzureBlobStorateTest copy copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +210,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		64B7EECA282571AE00325363 /* AzureBlobStorateTest copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7EED7282571AE00325363 /* Build configuration list for PBXNativeTarget "AzureBlobStorateTest copy" */;
+			buildPhases = (
+				64B7EECB282571AE00325363 /* [CP] Check Pods Manifest.lock */,
+				64B7EECC282571AE00325363 /* Sources */,
+				64B7EED0282571AE00325363 /* Frameworks */,
+				64B7EED2282571AE00325363 /* Resources */,
+				64B7EED6282571AE00325363 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AzureBlobStorateTest copy";
+			productName = AzureBlobStorateTest;
+			productReference = 64B7EEDA282571AE00325363 /* AzureBlobStorateTest copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B7EEDC282571B600325363 /* AzureBlobStorateTest copy copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7EEE9282571B600325363 /* Build configuration list for PBXNativeTarget "AzureBlobStorateTest copy copy" */;
+			buildPhases = (
+				64B7EEDD282571B600325363 /* [CP] Check Pods Manifest.lock */,
+				64B7EEDE282571B600325363 /* Sources */,
+				64B7EEE2282571B600325363 /* Frameworks */,
+				64B7EEE4282571B600325363 /* Resources */,
+				64B7EEE8282571B600325363 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AzureBlobStorateTest copy copy";
+			productName = AzureBlobStorateTest;
+			productReference = 64B7EEEC282571B600325363 /* AzureBlobStorateTest copy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		96357A7E2753979500FFC0F3 /* AzureBlobStorateTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96357AA92753979600FFC0F3 /* Build configuration list for PBXNativeTarget "AzureBlobStorateTest" */;
@@ -269,11 +345,33 @@
 				96357A7E2753979500FFC0F3 /* AzureBlobStorateTest */,
 				96357A942753979600FFC0F3 /* AzureBlobStorateTestTests */,
 				96357A9E2753979600FFC0F3 /* AzureBlobStorateTestUITests */,
+				64B7EECA282571AE00325363 /* AzureBlobStorateTest copy */,
+				64B7EEDC282571B600325363 /* AzureBlobStorateTest copy copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		64B7EED2282571AE00325363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EED3282571AE00325363 /* LaunchScreen.storyboard in Resources */,
+				64B7EED4282571AE00325363 /* Assets.xcassets in Resources */,
+				64B7EED5282571AE00325363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEE4282571B600325363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EEE5282571B600325363 /* LaunchScreen.storyboard in Resources */,
+				64B7EEE6282571B600325363 /* Assets.xcassets in Resources */,
+				64B7EEE7282571B600325363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96357A7D2753979500FFC0F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,6 +419,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B7EECB282571AE00325363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureBlobStorateTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B7EED6282571AE00325363 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobStorateTest/Pods-AzureBlobStorateTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobStorateTest/Pods-AzureBlobStorateTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureBlobStorateTest/Pods-AzureBlobStorateTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B7EEDD282571B600325363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureBlobStorateTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B7EEE8282571B600325363 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobStorateTest/Pods-AzureBlobStorateTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureBlobStorateTest/Pods-AzureBlobStorateTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureBlobStorateTest/Pods-AzureBlobStorateTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		726AF36E467942A6F3E2AFE9 /* [CP] Check Pods Manifest.lock */ = {
@@ -404,6 +580,26 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		64B7EECC282571AE00325363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EECD282571AE00325363 /* ViewController.swift in Sources */,
+				64B7EECE282571AE00325363 /* AppDelegate.swift in Sources */,
+				64B7EECF282571AE00325363 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7EEDE282571B600325363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7EEDF282571B600325363 /* ViewController.swift in Sources */,
+				64B7EEE0282571B600325363 /* AppDelegate.swift in Sources */,
+				64B7EEE1282571B600325363 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96357A7B2753979500FFC0F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,6 +662,118 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		64B7EED8282571AE00325363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B02767FC730B13A2505F6BB /* Pods-AzureBlobStorateTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AzureBlobStorateTest copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jellyworks.AzureBlobStorateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B7EED9282571AE00325363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29B3386774EE842E0EB0032 /* Pods-AzureBlobStorateTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AzureBlobStorateTest copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jellyworks.AzureBlobStorateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64B7EEEA282571B600325363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B02767FC730B13A2505F6BB /* Pods-AzureBlobStorateTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AzureBlobStorateTest copy copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jellyworks.AzureBlobStorateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B7EEEB282571B600325363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29B3386774EE842E0EB0032 /* Pods-AzureBlobStorateTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AzureBlobStorateTest copy copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.jellyworks.AzureBlobStorateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		96357AA72753979600FFC0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -737,6 +1045,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		64B7EED7282571AE00325363 /* Build configuration list for PBXNativeTarget "AzureBlobStorateTest copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7EED8282571AE00325363 /* Debug */,
+				64B7EED9282571AE00325363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B7EEE9282571B600325363 /* Build configuration list for PBXNativeTarget "AzureBlobStorateTest copy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7EEEA282571B600325363 /* Debug */,
+				64B7EEEB282571B600325363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		96357A7A2753979500FFC0F3 /* Build configuration list for PBXProject "AzureBlobStorateTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

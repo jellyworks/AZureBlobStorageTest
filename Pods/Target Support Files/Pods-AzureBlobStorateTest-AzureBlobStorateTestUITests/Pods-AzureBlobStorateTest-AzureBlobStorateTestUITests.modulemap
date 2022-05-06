@@ -1,0 +1,6 @@
+framework module Pods_AzureBlobStorateTest_AzureBlobStorateTestUITests {
+  umbrella header "Pods-AzureBlobStorateTest-AzureBlobStorateTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

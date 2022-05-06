@@ -9,7 +9,7 @@ import UIKit
 import AZSClient
 
 class ViewController: UIViewController {
-    let connectionString:String = "DefaultEndpointsProtocol=https;AccountName=lyr2021;AccountKey=oKdi1lI2eJdlHwmWIYHAHVhsU2rBZUORbAzcyydlLYDM9pebUPrRLBAjukGlfSjVAXRsnpDZQMYadeIkdNzdqw==;EndpointSuffix=core.windows.net"
+    let connectionString:String = "Your Storage Account Connection String"
 
     var blobContainer:AZSCloudBlobContainer?
     @IBOutlet weak var imageView1: UIImageView!
@@ -19,18 +19,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let image = UIImage(named: "twice2")
+        let image = UIImage(named: "GlobalAzure2022")
         imageView1.image = image
-        blobstorage = AZBlobService(connectionString, containerName: "nambuimages")
+        blobstorage = AZBlobService(connectionString, containerName: "con-ios")
     }
 
     @IBAction func upload(_ sender: Any) {
         guard let image = imageView1.image else {return}
-        blobstorage?.uploadImage(image: image, blobName: "twice")
+        blobstorage?.uploadImage(image: image, blobName: "globalazure")
     }
     
     @IBAction func download(_ sender: Any) {
-        blobstorage?.downloadImage(blobName: "twice", handler: { data in
+        blobstorage?.downloadImage(blobName: "globalazure", handler: { data in
             let image = UIImage(data: data)
             DispatchQueue.main.async {
                 self.imageView2.image = image
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func remove(_ sender: Any) {
-        blobstorage?.deleteImage(blobName: "twice", handler: {
+        blobstorage?.deleteImage(blobName: "globalazure", handler: {
             print("delete complete")
         })
     }
@@ -68,6 +68,8 @@ class AZBlobService{
                     blockBlob.upload(from: data) { error in
                         if let error = error{
                             print(error.localizedDescription.description)
+                        } else {
+                            print("Upload Complete")
                         }
                     }
                 }
